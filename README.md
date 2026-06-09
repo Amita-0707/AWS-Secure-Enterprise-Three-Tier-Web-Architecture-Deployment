@@ -108,7 +108,7 @@ The infrastructure segregates systemic tiers across isolated network boundaries 
 
 16. **Java Runtime Provisioning:** Logged into the private `app` system over the bastion path and deployed the base Java Enterprise Environment (JEE) runtime dependencies:
     ```bash
-    sudo yum install java-17-amazon-corretto -y
+    sudo yum install java -y
     ```
     ![Java Environment Deployment Terminal](./images/download_tomcat.png)
 
