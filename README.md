@@ -147,16 +147,6 @@ The infrastructure segregates systemic tiers across isolated network boundaries 
     ![MariaDB Remote Shell Login Success](./images/db.png)
 
 23. **Database Schema Injection:** Injected relational database schemas and structural validation configurations to map out record writes:
-    ```sql
-    CREATE DATABASE studentapp;
-    USE studentapp;
-    CREATE TABLE students (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        name VARCHAR(100),
-        email VARCHAR(100),
-        course VARCHAR(100)
-    );
-    ```
     ![DDL Database Schema Schema Execution](./images/image_35e821.png)
 
 ---
